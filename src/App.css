@@ -4,13 +4,14 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: lightblue;
+  background-color: rgb(172, 135, 198);
 }
 
 .calculator {
-  background-color: rgb(195, 195, 195);
-  width: 130px;
-  padding: 30px;
+  background-color: rgb(191, 195, 195);
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -24,6 +25,8 @@ input {
   border: 0;
   border-radius: 10px;
   padding: 0 10px 0 10px;
+  font-size: 15px;
+  letter-spacing: 0.7px;
 }
 
 h1 {
@@ -32,14 +35,14 @@ h1 {
 
 .screen {
   width: 100%;
-  height: 60px;
+  height: 50px;
   border-radius: 10px;
-  background-color: lightgreen;
+  background-color: #90ee90;
   margin: 20px 0 0 0;
   padding: 0 10px 0 10px;
-  font-size: 50px;
+  font-size: 40px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: darkgreen;
+  color: #013220;
 }
 
 .button {
