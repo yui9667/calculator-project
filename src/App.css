@@ -57,15 +57,17 @@ h1 {
   margin: 10px 0 0 0;
   transition: 0.3s ease-in;
 }
-/* .button:hover {
-  border-style: dashed solid;
 
-  background-color: #fff;
-  color: #00008b;
-} */
 .button:active {
   background-color: #fff;
   color: #00008b;
   box-shadow: 0 1px #666;
   transform: translateY(4px);
+}
+.title {
+  color: #00008b;
+  font-size: 30px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
